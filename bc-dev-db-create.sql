@@ -5,17 +5,15 @@ use sqlbootcamp_developer0318;
 
 -- create the customer table
 create table developer (
-	id 				int 			not null primary key auto_increment,
-	name 			varchar(50) 	not null,
-	city 			varchar(50) 	not null,
-	state 			varchar(2) 		not null,
-	isCorpAcct 		bit 			not null default 0,
-	creditLimit 	int 			not null default 0,
-	active 			bit 			not null default 1
+	emp_id 				int 			not null primary key auto_increment,
+	first_name 			varchar(50) 	not null,
+    last_name 			varchar(50) 	not null,
+	role 				varchar(50) 	not null,
+	salary 				int 			not null default 0
 );
 
 -- add some data to customer table
-Insert into customer (name, city, state, isCorpAcct, creditLimit)
+Insert into  (name, city, state, isCorpAcct, creditLimit)
 values ('Mercury LTD', 'Newport', 'KY', 0, 100000);
 Insert into customer (name, city, state, isCorpAcct, creditLimit)
 values ('Venus LLC', 'Dayton', 'OH', 0, 300000);
