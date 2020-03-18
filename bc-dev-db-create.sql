@@ -14,12 +14,22 @@ create table developer(
 
 Insert into developer (emp_id, first_name, last_name, role, salary)
 	values(4512, 'Jeff', 'Peters', 'Developer 1', 62000);
-
-
--- this is a comment
--- code below does the same thing as foreign key declaration above
--- ALTER TABLE orders
--- ADD FOREIGN KEY (customerID) REFERENCES customer(id);
-/*    this is a multi
-      line comment */
+Insert into developer (emp_id, first_name, last_name, role, salary)
+	values(1055, 'Andrew','Wansik', 'Developer 1', 59000);
+Insert into developer (emp_id, first_name, last_name, role, salary)
+	values(3222, 'Jacob', 'Pineault', 'Developer 1', 585000);
+Insert into developer (emp_id, first_name, last_name, role, salary)
+	values(1254, 'Nick', 'Renner', 'Developer 2', 68000);
+Insert into developer (emp_id, first_name, last_name, role, salary)
+	values(6789, 'Eric', 'Shepard', 'Developer 2', 65200);
+Insert into developer (emp_id, first_name, last_name, role, salary)
+	values(8574, 'Tyler', 'Stegman', 'Developer 2', 65000);    
+Insert into developer (emp_id, first_name, last_name, role, salary)
+	values(6352, 'Trevor', 'Osborne', 'Developer 3', 83500);
+Insert into developer (emp_id, first_name, last_name, role, salary)
+	values(9632, 'Marcus', 'Crabtree', 'Developer 3', 82000);
+Insert into developer (emp_id, first_name, last_name, role, salary)
+	values(8544, 'Dennis', 'Frey', 'Developer 3', 75000);
+Insert into developer (emp_id, first_name, last_name, role, salary)
+	values(1122, 'Alina', 'Ivannikov', 'Developer 3', 67750);    
 
