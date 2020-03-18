@@ -3,7 +3,7 @@ drop database if exists sqlbootcamp_developer0318;
 create database sqlbootcamp_developer0318;
 use sqlbootcamp_developer0318;
 
--- create the customer table
+-- create the devloper table
 create table developer(
 	emp_id 				int 			not null primary key,
 	first_name 			varchar(50) 	not null,
@@ -17,7 +17,7 @@ Insert into developer (emp_id, first_name, last_name, role, salary)
 Insert into developer (emp_id, first_name, last_name, role, salary)
 	values(1055, 'Andrew','Wansik', 'Developer 1', 59000);
 Insert into developer (emp_id, first_name, last_name, role, salary)
-	values(3222, 'Jacob', 'Pineault', 'Developer 1', 585000);
+	values(3222, 'Jacob', 'Pineault', 'Developer 1', 58500);
 Insert into developer (emp_id, first_name, last_name, role, salary)
 	values(1254, 'Nick', 'Renner', 'Developer 2', 68000);
 Insert into developer (emp_id, first_name, last_name, role, salary)
@@ -31,5 +31,14 @@ Insert into developer (emp_id, first_name, last_name, role, salary)
 Insert into developer (emp_id, first_name, last_name, role, salary)
 	values(8544, 'Dennis', 'Frey', 'Developer 3', 75000);
 Insert into developer (emp_id, first_name, last_name, role, salary)
-	values(1122, 'Alina', 'Ivannikov', 'Developer 3', 67750);    
-
+	values(1122, 'Alina', 'Ivannikov', 'Developer 3', 67750);  
+Insert into developer (emp_id, first_name, last_name, role, salary)
+	values(2498, 'Sam', 'O''Connell', 'Developer 4', 107500);
+Insert into developer (emp_id, first_name, last_name, role, salary)
+	values(2222, 'Christian', 'Hall', 'Developer 4', 95000);
+Insert into developer (emp_id, first_name, last_name, role, salary)
+	values(5522, 'Sarah', 'Williamson', 'Developer 5', 125000);    
+Insert into developer (emp_id, first_name, last_name, role, salary)
+	values(1111, 'Sean', 'Blessing', 'Manager 2', 120000);    
+    
+    
