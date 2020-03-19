@@ -1,12 +1,12 @@
 -- create the database schema
-drop database if exists bc_dev_db;
-create database bc_dev_db;
-use bc_dev_db;
+drop database if exists bc_dev_db;   -- checks schemas if bc_deb db has been made, if already made it will delete it -- 
+create database bc_dev_db; -- creates schemas name bc_dev_db --
+use bc_dev_db;  -- uses bc_dev_db  --
 
 -- create the developer table
 create table developer(
-	emp_id 				int 			not null primary key,
-	first_name 			varchar(50) 	not null,
+	emp_id 				int 			not null primary key,   -- int means number --	not null must contain a number, primary key must be a unique number ie not duplicates -- 
+	first_name 			varchar(50) 	not null,   -- varchar: variable chracter length the (50) specifies it cant be larger than 50 character long, varchars need to be entered wtih ' ' example 'Peters'
     last_name 			varchar(50) 	not null,
 	role 				varchar(50) 	not null,
 	salary 				int 			not null default 0
