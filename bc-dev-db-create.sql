@@ -1,9 +1,9 @@
 -- create the database schema
-drop database if exists sqlbootcamp_developer0318;
-create database sqlbootcamp_developer0318;
-use sqlbootcamp_developer0318;
+drop database if exists bc_dev_db;
+create database bc_dev_db;
+use bc_dev_db;
 
--- create the devloper table
+-- create the developer table
 create table developer(
 	emp_id 				int 			not null primary key,
 	first_name 			varchar(50) 	not null,
